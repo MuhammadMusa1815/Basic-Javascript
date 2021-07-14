@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head><title>IF-ElseIF</title></head>
+<body>
+    <h2>Working on conditions</h2>
+    <p id="university"></p>
+    <script>
+        let a=300;
+        let b=200;
+        let d=100;
+        let e=50;
+        let f=25;
+        let c=a+(b*d)-e/f;
+        let musa;
+        if(c > f)
+        {
+            musa="Iqra National University Peshawar";
+        }
+        else if(c < f)
+        {
+            musa="University of Peshawar";
+        }
+        else if(c == f)
+        {
+            musa="Abdul Wali Khan University Mardan";
+        }
+        else
+        {
+            musa="National University of Science and Technology Islamabad";
+        }
+        document.getElementById("university").innerHTML=musa;
+    </script>
+    </body>
+    </html>
