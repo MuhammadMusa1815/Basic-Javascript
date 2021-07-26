@@ -1,0 +1,17 @@
+<html>
+<head><title>onkeypress event in Javascript</title></head>
+<body>
+<h1 style="color:rgb(42, 165, 93)">Onkeypress event in Javascript</h1>
+<p id="p1" style="color: chartreuse;" onmouseover="changeColor()">IQRA NATIONAL UNIVERSITY</p>
+<input type="text" id="mak" onkeypress="add(2,2)"/>
+<script>
+    function changeColor() {
+        document.getElementById("p1").style.color="red";
+        add(4,8);
+    }
+    function add(a,b) {
+        console.log(a+b);
+    }
+</script>
+</body>
+</html>

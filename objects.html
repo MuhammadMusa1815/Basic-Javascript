@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head><title>objects in Javascript</title></head>
+<body>
+
+<h2>JavaScript Objects</h2>
+
+<p id="musa"></p>
+
+<script>
+// Create an object:
+const person = {
+    FirstName:"Muhammad",
+     LastName:"Musa", 
+     email:"abc@gmail.com"
+     }
+     for (let x in person) {
+         console.log(person[x]);
+         console.log(x);
+     }
+     //console.log("person=", person);
+     //person.age=20;
+
+     //console.log("person=", person);
+     //delete person.email;
+
+     //console.log("person=", person);
+     document.getElementById("musa").innerHTML="My name is " + person.FirstName + " " + person.LastName + " . My personal email is " + person.email + ".";   
+</script>
+
+</body>
+</html>
