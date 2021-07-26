@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Multiples objects in Javascript</title></head>
+<body>
+
+<h2>JavaScript Objects</h2>
+
+<p id="musa"></p>
+
+<script>
+function student(Name,FName,Age) {
+    this.Name=Name;
+    this.FName=FName;
+    this.Age=Age;
+}
+const s1=new student("Muhammad Musa", "Khan G", 20);
+const s2=new student("Mashaal", "Gul Ahmad", 30);
+const s3=new student("Ammar", "Anwar Ali", 60);
+const s4=new student("Aziq Ullah", "Inam Ullah", 80);
+console.log(s1, s2, s3, s4);
+</script>
+</body>
+</html>
