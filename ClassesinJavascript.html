@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>classesinJavascript</title></head>
+<body>
+    <h1>Classes in Javascript</h1>
+    <p id="mak"></p>
+    
+    <script>
+    class car{
+        constructor(name, age) {
+            this.name=name;
+            this.age=age;
+            }
+    }
+
+    const a = new car("Summaya", 24);
+    document.getElementById("mak").innerHTML= "My name is " + a.name + ". I am " + a.age + " years old.";
+    </script>
+    </body>
+    </html>

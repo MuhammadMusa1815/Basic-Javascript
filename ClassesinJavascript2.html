@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>classesinJavascript2</title></head>
+<body>
+    <h1>Classes in Javascript</h1>
+    <p id="mak"></p>
+
+    <script>
+        class university {
+            constructor(name, fname, department, age){
+                this.name=name;
+                this.fname=fname;
+                this.department=department;
+                this.age=age;
+            }
+        }
+
+        const a= new university("Musa", "Khan","Computer Science", 34);
+        
+        document.getElementById("mak").innerHTML= a.name + " is in IQRA UNIVERSITY. He is in " + a.department + 
+        " department. His father name is " + a.fname + " . He is " +  a.age + " years old. "; 
+    </script>
+    </body>
+    </html>
