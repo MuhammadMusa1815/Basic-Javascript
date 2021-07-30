@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Nested Function in Javascript</title></head>
+<body>
+    <h1>Nested Function in Javascript</h1>
+    <p id="mak"></p>
+    <script>
+        document.getElementById('mak').innerHTML=mul();
+        function mul()
+        {
+            let multiply=10;
+            function zarab()
+            {
+                multiply=multiply*10;
+            }
+            zarab();
+            return multiply;
+        }
+        </script>
+        </body>
+        </html>

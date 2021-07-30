@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>Function Literals in Javascript</title></head>
+<body>
+    <h1>Function Literals in Javascript</h1>
+    <pre>Function Literals:
+        Function Literals is another way of defining the functions. But used as an expression rather than statement.
+        But what is expression and statement. 
+        In expression we evaluate the value and statement can be anything;
+        x=1    ---------     statement
+        x=2+3  ---------   expression
+        x=x+3  ---------   expression
+    </pre>
+    <script>
+        var func=function(x,y) {return x*y};
+
+        function secondfunction()
+        {
+            var result;
+            result=func(2,3);
+            document.write(result);
+        }
+        </script>
+
+        <form>
+            <input type="button" onclick="secondfunction()" value="call function"/>
+
+            </form>
+        </form>
+        </body>
+        </html>

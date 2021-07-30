@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Nested Function in Javascript</title></head>
+<body>
+    <h1>Nested Function in Javascript</h1>
+    <p id="mak"></p>
+    <script>
+        document.getElementById('mak').innerHTML=add();
+        function add()
+        {
+            let sum=0;
+            function plus()
+            {
+                sum=sum+1;
+            }
+            plus();
+            return sum;
+        }
+        </script>
+        </body>
+        </html>
